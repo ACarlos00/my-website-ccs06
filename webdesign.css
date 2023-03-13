@@ -1,0 +1,178 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right,
+      Black 0%,
+      Black 20%,
+      #161515 15%,
+      #161515 100%);
+}
+.frame-1 {
+  align-items: flex-start;
+  background-color: #161515;
+  border: 1px none;
+  display: flex;
+  width: 794px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.group-container {
+  align-items: center;
+  background-color: #161515;
+  display: flex;
+  gap: 172px;
+  height: 505px;
+  min-width: 794px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  min-height: 505px;
+  padding: 126px 38px;
+  width: 234px;
+}
+.placeholder {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 130px;
+  width: 146px;
+}
+
+.contact-me {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 10px;
+  width: 146px;
+}
+
+.about-me {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 13px;
+  min-height: 10px;
+  width: 121px;
+}
+
+.place {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 12px;
+  min-height: 10px;
+  width: 99px;
+}
+
+.group-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 233px;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+  min-width: 223px;
+  transform: rotate(-11.54deg);
+}
+
+.ellipse-container {
+  height: 263px;
+  margin-top: -20.05px;
+  position: relative;
+  width: 263px;
+}
+
+.ellipse-3 {
+  height: 74px;
+  left: 94px;
+  position: absolute;
+  top: 94px;
+  transform: rotate(11.54deg);
+  width: 74px;
+}
+
+.ellipse-1 {
+  height: 223px;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(11.54deg);
+  width: 223px;
+}
+
+.ellipse-2 {
+  height: 149px;
+  left: 57px;
+  position: absolute;
+  top: 57px;
+  transform: rotate(11.54deg);
+  width: 149px;
+}
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --cultured-peral: rgba(245, 245, 245, 1);
+  --dolly: rgba(252, 255, 124, 1);
+  --font-size-m: 15px;
+  --font-size-l: 24px;
+  --font-size-xl: 48px;
+  --font-size-xxl: 64px;
+  --font-size-m2: 20px;
+  --font-family-inder: "Inder";
+  --font-family-inter: "Inter";
+  --font-family-interbold: "Inter-Bold";
+  --font-family-raleway: "Raleway";
+  --font-family-raleway-bold: "Raleway-Bold";
+  --font-family-raleway-extrabold: "Raleway-ExtraBold";
+  --font-family-raleway-regular: "Raleway-Regular";
+  --font-family-raleway-semibolditalic: "Raleway-SemiBoldItalic";
+}
+
+.raleway-bold-cultured-pearl-15px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-raleway-bold);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-regular-normal-cultured-pearl-15px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-raleway-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-normal-cultured-pearl-15px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold-cultured-pearl-15px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inder-normal-dolly-24px {
+  color: var(--dolly);
+  font-family: var(--font-family-inder);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
